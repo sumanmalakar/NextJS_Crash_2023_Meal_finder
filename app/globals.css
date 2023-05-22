@@ -197,6 +197,7 @@ body {
 
   background-color: #fff;
   color: #333;
+  align-items: center;
 }
 
 .card h2 {
@@ -235,4 +236,11 @@ body {
   to {
     transform: rotate(360deg);
   }
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
 }
